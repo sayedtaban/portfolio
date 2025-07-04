@@ -135,7 +135,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
+                    <div className="text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300">
                       {social.icon}
                     </div>
                   </motion.a>
