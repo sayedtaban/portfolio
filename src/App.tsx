@@ -46,8 +46,8 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
-      {/* <Testimonials /> */}
-      {/* <Achievements /> */}
+      <Testimonials />
+      <Achievements />
       <Experience />
       <Education />
       <Contact />
