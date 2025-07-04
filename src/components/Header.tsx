@@ -39,7 +39,7 @@ const Header = () => {
             className="text-2xl font-bold text-white"
             whileHover={{ scale: 1.05 }}
           >
-            Sayed
+            Sayed Taban
           </motion.div>
 
           {/* Desktop Navigation */}

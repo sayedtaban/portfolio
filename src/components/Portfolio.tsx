@@ -183,7 +183,7 @@ const Portfolio = () => {
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {/* <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.github}
                     className="p-2 bg-gray-900/80 rounded-full text-white hover:bg-gray-800 transition-colors"
@@ -195,7 +195,7 @@ const Portfolio = () => {
                     className="p-2 bg-gray-900/80 rounded-full text-white hover:bg-gray-800 transition-colors"
                   >
                     <ExternalLink size={16} />
-                  </a>
+                  </a> */}
                 </div>
                 <div className="absolute top-4 left-4">
                   <span className="text-xs bg-blue-600/90 text-white px-2 py-1 rounded-full backdrop-blur-sm">

@@ -43,10 +43,10 @@ function App() {
       <ParticleBackground />
       <Header />
       <Hero />
+      <Testimonials />
       <About />
       <Skills />
       <Portfolio />
-      <Testimonials />
       <Achievements />
       <Experience />
       <Education />
