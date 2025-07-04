@@ -94,11 +94,10 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="lg:col-span-2"
+            className="flex-1"
           >
             <h3 className="text-2xl font-bold text-white mb-8">Get In Touch</h3>
-            
-            <div className="flex gap-6 mb-8">
+            <div className="flex gap-6">
               {contactInfo.map((info, index) => (
                 <motion.a
                   key={index}
@@ -123,27 +122,27 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="lg:col-span-2"
+            className="flex-1"
           >
             <div>
-                <h4 className="text-lg font-semibold text-white mb-4">Follow Me</h4>
-                <div className="flex gap-4">
-                  {socialLinks.map((social, index) => (
-                    <motion.a
-                      key={index}
-                      href={social.link}
-                      className={`p-3 bg-gray-800/40 backdrop-blur-sm rounded-lg border border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 text-gray-400 ${social.color}`}
-                      whileHover={{ scale: 1.1, y: -2 }}
-                      whileTap={{ scale: 0.95 }}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {social.icon}
-                    </motion.a>
-                  ))}
-                </div>
+              <h3 className="text-lg font-semibold text-white mb-4">Follow Me</h3>
+              <div className="flex gap-4">
+                {socialLinks.map((social, index) => (
+                  <motion.a
+                    key={index}
+                    href={social.link}
+                    className={`p-3 bg-gray-800/40 backdrop-blur-sm rounded-lg border border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 text-gray-400 ${social.color}`}
+                    whileHover={{ scale: 1.1, y: -2 }}
+                    whileTap={{ scale: 0.95 }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {social.icon}
+                  </motion.a>
+                ))}
               </div>
-            </motion.div>
+            </div>
+          </motion.div>
 
           {/* Contact Form */}
           {/* <motion.div
