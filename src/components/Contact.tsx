@@ -124,7 +124,7 @@ const Contact = () => {
             viewport={{ once: true }}
           >
             <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Follow Me</h3>
+              <h3 className="text-2xl font-bold text-white mb-8">Follow Me</h3>
               <div className="flex gap-4">
                 {socialLinks.map((social, index) => (
                   <motion.a
@@ -136,7 +136,9 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {social.icon}
+                    <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
+                      {social.icon}
+                    </div>
                   </motion.a>
                 ))}
               </div>
