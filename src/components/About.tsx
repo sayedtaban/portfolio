@@ -76,7 +76,7 @@ const About = () => {
             <div className="relative">
               <div className="w-85 h-85 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-500 to-purple-500 p-1 bg-gradient-to-r from-blue-500 to-purple-500">
                 <img
-                  src="../../dist/assets/sayed.png"
+                  src="../../public/img/sayed.png"
                   alt="Sayed - Full Stack Developer"
                   className="w-full h-full object-cover rounded-full bg-gray-800"
                 />
