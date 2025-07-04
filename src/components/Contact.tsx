@@ -246,13 +246,13 @@ const Contact = () => {
             I'm here to help you achieve your goals with cutting-edge technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <motion.button
+            {/* <motion.button
               className="px-8 py-3 bg-green-600 hover:bg-green-700 rounded-lg font-semibold text-white transition-colors duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Schedule a Call
-            </motion.button>
+            </motion.button> */}
             <motion.button
               className="px-8 py-3 bg-transparent border-2 border-blue-500 hover:bg-blue-500 rounded-lg font-semibold text-blue-400 hover:text-white transition-all duration-300"
               whileHover={{ scale: 1.05 }}
