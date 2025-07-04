@@ -195,8 +195,8 @@ const Portfolio = () => {
                     className="p-2 bg-gray-900/80 rounded-full text-white hover:bg-gray-800 transition-colors"
                   >
                     <ExternalLink size={16} />
-                  </a> */}
-                </div>
+                  </a>
+                </div> */}
                 <div className="absolute top-4 left-4">
                   <span className="text-xs bg-blue-600/90 text-white px-2 py-1 rounded-full backdrop-blur-sm">
                     {project.category}
