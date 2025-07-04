@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, ExternalLink } from 'lucide-react';
+import UpworkIcon from './UpworkIcon';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -62,7 +63,7 @@ const Contact = () => {
     //   color: "hover:text-blue-400"
     // },
     {
-      icon: <ExternalLink className="w-6 h-6" />,
+      icon: <UpworkIcon className="w-6 h-6 text-green-500" />,
       label: "Upwork",
       link: "https://www.upwork.com/freelancers/~0102801b6a0dcc228e",
       color: "hover:text-green-400"
