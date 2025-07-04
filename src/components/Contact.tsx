@@ -97,7 +97,7 @@ const Contact = () => {
           >
             <h3 className="text-2xl font-bold text-white mb-8">Get In Touch</h3>
             
-            <div className="space-y-6 mb-8">
+            <div className="flex gap-6 mb-8">
               {contactInfo.map((info, index) => (
                 <motion.a
                   key={index}
