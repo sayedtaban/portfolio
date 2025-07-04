@@ -94,7 +94,6 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="flex-1"
           >
             <h3 className="text-2xl font-bold text-white mb-8">Get In Touch</h3>
             <div className="flex gap-6">
@@ -116,7 +115,7 @@ const Contact = () => {
               ))}
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -125,7 +124,7 @@ const Contact = () => {
           >
             <div>
               <h3 className="text-2xl font-bold text-white mb-8">Follow Me</h3>
-              <div className="flex gap-4">
+              <div className="flex gap-6">
                 {socialLinks.map((social, index) => (
                   <motion.a
                     key={index}
@@ -243,7 +242,7 @@ const Contact = () => {
             Ready to Start Your Project?
           </h3>
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-            Whether you need a full-stack web application, AI integration, IoT solution, or automation workflow, 
+            Whether you need a full-stack web application, AI integration, IoT solution, or automation workflow,
             I'm here to help you achieve your goals with cutting-edge technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
