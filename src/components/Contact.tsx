@@ -30,19 +30,21 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
       value: "sayedtaban8@gmail.com",
-      link: "mailto:sayedtaban8@gmail.com"
+      link: "mailto:sayedtaban8@gmail.com",
+      target: "_blank"
     },
-    {
-      icon: <Phone className="w-6 h-6" />,
-      label: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
-    },
+    // {
+    //   icon: <Phone className="w-6 h-6" />,
+    //   label: "Phone",
+    //   value: "+1 (555) 123-4567",
+    //   link: "tel:+15551234567"
+    // },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "Available Worldwide",
-      link: "#"
+      value: "Stockholm, Sweden",
+      link: "https://www.google.com/maps/place/Stockholm,+Sweden",
+      target: "_blank"
     }
   ];
 
@@ -135,7 +137,7 @@ const Contact = () => {
           </motion.div>
 
           {/* Contact Form */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -217,7 +219,7 @@ const Contact = () => {
                 Send Message
               </motion.button>
             </form>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* Call to Action */}
