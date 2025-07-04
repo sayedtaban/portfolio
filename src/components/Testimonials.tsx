@@ -7,45 +7,45 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "James Patterson",
-      role: "CTO at HealthFlow",
-      company: "HealthFlow Inc.",
+      name: "Roberto Perez",
+      // role: "CTO at HealthFlow",
+      // company: "HealthFlow Inc.",
       rating: 5,
-      testimonial: "Sayed transformed our manual workflow into an automated AI system that saved us 15 hours per week. His technical expertise and attention to detail are exceptional. Always delivers on time and exceeds expectations.",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150"
+      testimonial: "Sayed is hands down the best freelancer I've worked with on Upwork. His enthusiasm is contagious, and the ideas he gave us were so valuable. A multi-talented individual, and an excellent programmer with diverse interests, he was able to give us valuable inputs for our project and is obviously good at what he does. Talented, motivated, responsive and very professional. He has deep knowledge of coding and components. I had a great time working with him and will definitely choose him for future programming work as well. Highly recommend, actually he should be your go to person if you're looking for any programming and electronics related work. A special thanks to Sayed for the great experience.",
+      // image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
-      name: "Sarah Chen",
-      role: "Product Manager",
-      company: "TechStart Solutions",
+      name: "Mandeep Premi, Mandeep P",
+      // role: "Product Manager",
+      // company: "TechStart Solutions",
       rating: 5,
-      testimonial: "Working with Sayed was a game-changer for our IoT project. He seamlessly integrated complex sensor networks with our web platform. His communication skills and technical depth made the entire process smooth.",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150"
+      testimonial: "Working with Sayed was a smooth and positive experience. He quickly understood the project requirements and delivered high-quality work with great attention to detail. Throughout the project, his communication was clear, professional, and prompt. Sayed was proactive in providing updates and always open to feedback. Deadlines were consistently met, and the overall execution exceeded expectations. I would gladly work with him again and highly recommend his services to others",
+      // image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
-    {
-      name: "Michael Rodriguez",
-      role: "Founder",
-      company: "DataDriven Co.",
-      rating: 5,
-      testimonial: "Sayed's MLOps expertise helped us deploy our machine learning models efficiently. The automated pipeline he built reduced our deployment time from days to minutes. Highly recommended for AI projects.",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150"
-    },
-    {
-      name: "Emily Johnson",
-      role: "Operations Director",
-      company: "LogiTech Solutions",
-      rating: 5,
-      testimonial: "The automation workflows Sayed created using n8n eliminated 80% of our manual processes. His understanding of business requirements and ability to translate them into technical solutions is remarkable.",
-      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150"
-    },
-    {
-      name: "David Kim",
-      role: "Lead Developer",
-      company: "InnovateTech",
-      rating: 5,
-      testimonial: "Sayed's full-stack development skills are top-notch. He built our entire e-commerce platform with AI recommendations. The code quality and architecture are exceptional. A true professional.",
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150"
-    }
+    // {
+    //   name: "Michael Rodriguez",
+    //   role: "Founder",
+    //   company: "DataDriven Co.",
+    //   rating: 5,
+    //   testimonial: "Sayed's MLOps expertise helped us deploy our machine learning models efficiently. The automated pipeline he built reduced our deployment time from days to minutes. Highly recommended for AI projects.",
+    //   image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150"
+    // },
+    // {
+    //   name: "Emily Johnson",
+    //   role: "Operations Director",
+    //   company: "LogiTech Solutions",
+    //   rating: 5,
+    //   testimonial: "The automation workflows Sayed created using n8n eliminated 80% of our manual processes. His understanding of business requirements and ability to translate them into technical solutions is remarkable.",
+    //   image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150"
+    // },
+    // {
+    //   name: "David Kim",
+    //   role: "Lead Developer",
+    //   company: "InnovateTech",
+    //   rating: 5,
+    //   testimonial: "Sayed's full-stack development skills are top-notch. He built our entire e-commerce platform with AI recommendations. The code quality and architecture are exceptional. A true professional.",
+    //   image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150"
+    // }
   ];
 
   const nextTestimonial = () => {
