@@ -82,6 +82,14 @@ const Hero = () => {
               className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                const section = document.getElementById('portfolio');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                  alert('Portfolio section not found.');
+                }
+              }}
             >
               <Briefcase size={20} />
               View Portfolio
@@ -90,6 +98,7 @@ const Hero = () => {
               className="px-8 py-4 bg-transparent border-2 border-green-500 rounded-lg font-semibold text-green-400 hover:bg-green-500 hover:text-white transition-all duration-300 flex items-center justify-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => window.open('https://www.upwork.com/freelancers/~0102801b6a0dcc228e', '_blank')}
             >
               <ExternalLink size={20} />
               Hire Me on Upwork
