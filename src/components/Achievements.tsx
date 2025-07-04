@@ -13,12 +13,12 @@ const Achievements = () => {
   });
 
   const finalValues = {
-    projects: 50,
-    hours: 1200,
+    projects: 2,
+    hours: 15,
     rating: 100,
-    countries: 12,
-    models: 10,
-    clients: 35
+    countries: 2,
+    models: 1,
+    clients: 2
   };
 
   const achievements = [
