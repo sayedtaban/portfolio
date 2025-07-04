@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="w-55 h-55 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-500 to-purple-500 p-1 bg-gradient-to-r from-blue-500 to-purple-500">
               <img
                 // src="../../dist/assets/sayed1.png"
-                src="../../public/img/sayed1.png"
+                src="/img/sayed1.png"
                 alt="Sayed - Full Stack Developer"
                 className="w-full h-full object-cover rounded-full bg-gray-800"
               />
