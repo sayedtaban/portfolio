@@ -26,7 +26,7 @@ const Education = () => {
     // },
     {
       degree: "Bachelor of Science in Computer science",
-      institution: "State University of Engineering",
+      institution: "Mid Sweden University",
       location: "Swedish, Mittuniversitetet",
       duration: "2015 - 2018",
       gpa: "3.8/4.0",
